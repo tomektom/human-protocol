@@ -26,6 +26,5 @@
       "path": "/cron/webhook/paid",
       "schedule": "*/5 * * * *"
     }
-  ],
-  "ignoreCommand": "git diff HEAD^ HEAD --quiet ."
+  ]
 }
