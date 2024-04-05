@@ -17,16 +17,6 @@
       }
     }
   ],
-  "crons": [
-    {
-      "path": "/cron/webhook/pending",
-      "schedule": "*/5 * * * *"
-    },
-    {
-      "path": "/cron/webhook/paid",
-      "schedule": "*/5 * * * *"
-    }
-  ],
   "ignoreCommand": "git diff HEAD^ HEAD --quiet .",
   "outputDirectory": "dist",
   "buildCommand": "yarn workspace @human-protocol/reputation-oracle build",
