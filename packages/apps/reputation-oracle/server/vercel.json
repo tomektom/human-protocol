@@ -26,5 +26,10 @@
       "path": "/cron/webhook/paid",
       "schedule": "*/5 * * * *"
     }
-  ]
+  ],
+  "ignoreCommand": "git diff HEAD^ HEAD --quiet .",
+  "outputDirectory": "dist",
+  "buildCommand": "yarn workspace @human-protocol/reputation-oracle build",
+  "devCommand": "node packages/apps/reputation-oracle/server/dist/src/main.js",
+  "installCommand": "yarn install"
 }
