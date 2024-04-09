@@ -5,6 +5,7 @@
   "description": "Human Protocol Fortune",
   "license": "MIT",
   "scripts": {
+    "build": "cd recording-oracle && yarn build",
     "recording-oracle:dev": "cd recording-oracle && yarn start:dev",
     "recording-oracle:lint": "cd recording-oracle && yarn lint",
     "recording-oracle:test": "cd recording-oracle && yarn test",
