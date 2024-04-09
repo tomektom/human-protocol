@@ -27,9 +27,6 @@
       "schedule": "1 1 * * *"
     }
   ],
-  "engines": {
-    "node": "18.x"
-  },
   "ignoreCommand": "git diff HEAD^ HEAD --quiet .",
   "outputDirectory": "dist",
   "buildCommand": "yarn workspace @human-protocol/reputation-oracle build",
